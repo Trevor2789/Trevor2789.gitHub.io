@@ -1,0 +1,68 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 850px;
+    margin-block: 4rem;
+}
+
+.import-info {
+    background-color: rgb(10, 54, 10);
+    padding-inline: 2rem;
+    color: white;
+    padding-block: 10rem 0;
+}
+
+.import-info h1 {
+    font-size: 2rem;
+    line-height: 5rem;
+    text-align: center;
+    letter-spacing: 0.3rem;
+}
+
+.import-info h2 {
+    line-height: 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.import-info div {
+    margin-bottom: 1.3rem;
+    font-size: 1.2rem;    
+}
+
+.import-info div span {
+    letter-spacing: 0.12rem;
+}
+
+details {
+    min-height: 4rem;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.08rem;
+    margin-block: 1rem;
+}
+
+details p {
+    margin-left: 1.5rem;
+}
+
+
+.gen {
+    font-weight: 600;
+    margin-inline-end: 1rem;
+}
+
+.backer-fq {
+    background-image: url(../images/pexels-cottonbro-4911788.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 950px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 760px;
+        height: auto;
+    }
+}

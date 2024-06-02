@@ -1,0 +1,156 @@
+.ours-holder {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    height: 650px;
+    color: rgb(10, 54, 10);
+    
+}
+
+.ours-1 {
+    background-color: rgb(255, 172, 47);
+    padding-block: 5rem;
+}
+
+.ours-holder h2 {
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-block: 0.5rem;
+}
+
+.ours-holder h3 {
+    font-size: 1.3rem;
+    text-transform: initial;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 4rem;
+    letter-spacing: 0.2rem;
+}
+
+.ours-holder p {
+    line-height: 1.7rem;
+    text-align: center;
+    padding-inline: 10px;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+}
+
+.ours-img {
+    background-image: url(../images/pexels-cottonbro-4911740.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.middler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+
+}
+
+.middler img {
+    width: 100px;
+    height: 100px;
+}
+
+.insta-follow {
+    margin-bottom: 10rem;
+}
+
+.insta-follow h2 {
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: rgb(10, 54, 10);
+    margin-bottom: 2rem;
+}
+
+.insta-follow p {
+    margin-block: 1rem;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    padding-inline: 10rem;
+    margin-bottom: 2rem;
+}
+
+.insta-follow section {
+    display: flex;
+    justify-content: center;
+}
+
+.insta-follow a {
+    color: rgb(10, 54, 10);
+    padding: 0.7em 1.8em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    border: 2px solid rgb(10, 54, 10);
+    transition: all 0.2s ease-in;
+}
+
+.visit-us:hover {
+    background-color:rgb(10, 54, 10);
+    color: white;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 650px;
+    margin-bottom: 5rem;
+}
+
+.organicia {
+    background-color: rgb(255, 172, 47);
+    padding-block: 7rem;
+    text-align: center;
+    color: rgb(10, 54, 10);
+}
+
+
+
+.grid-2-backer {
+    background-image: url(../images/pexels-cottonbro-4911795.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.organicia h2 {
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-block: 0.5rem;
+    margin-bottom: 4rem;
+    line-height: 2.2rem;
+}
+
+.organicia p {
+    line-height: 1.7rem;
+    text-align: center;
+    padding-inline: 20px;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 950px) {
+    .ours-holder {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 600px;
+        height: auto;
+    }
+
+    .insta-follow p {
+        padding-inline: 0.4rem;
+    }
+
+    .grid-2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 600px auto;
+        height: auto;
+    }
+}

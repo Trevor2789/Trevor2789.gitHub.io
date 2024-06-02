@@ -1,0 +1,166 @@
+.hero {
+    background-image: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 6rem;
+    height: 550px;
+    font-weight: 700;
+    color: white;
+    flex-direction: column;
+}
+
+.hero hr {
+    width: 80%;
+}
+
+main {
+    padding-block: 3rem;
+}
+
+.fresher-gs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 670px;
+    padding-inline: 5%;
+}
+
+.back-g1 {
+    background-image: url(../images/eggs.webp);
+    background-size: cover;
+    background-position: left;
+}
+
+.back-g2 {
+    background-image: url(../images/girl-chicken_2.webp);
+    background-size: cover;
+    background-position: left;
+}
+
+.mid-g {
+    background-color: rgb(219, 144, 6);
+    text-align: center;
+    padding-block: 3rem;
+    color: rgb(5, 44, 5);
+}
+
+.mid-g p, h1, a {
+    margin-block: 3rem;
+}
+
+.mid-g h1 {
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+}
+
+.mid-g p {
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+    margin-block: 6rem;
+    padding-inline: 5px;
+}
+
+.mid-g a {
+    background-color: rgb(12, 53, 12);
+    color: white;
+    padding: 0.7em 1.5em;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+}
+
+.o-today:hover {
+    background-color: yellowgreen;
+    font-weight: bold;
+    color: black;
+}
+
+.middler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.middler img {
+    width: 100px;
+    height: 100px;
+}
+
+.clientes {
+    text-align: center;
+    color: rgb(10, 54, 10);
+}
+
+.clientes h2, .insta-follow h2 {
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+}
+
+.clientes p {
+    padding-inline: 20%;
+    margin-block: 3rem;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+.insta-follow {
+    text-align: center;
+    color: rgb(10, 54, 10);
+}
+
+.insta-follow p {
+    margin-block: 1rem;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+.to-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px 80px; 
+}
+
+.gallery div img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+@media (max-width: 950px) {
+
+    .hero {
+        font-size: 3rem;
+    }
+
+    .fresher-gs {
+        grid-template-columns: 1fr;
+        height: auto;
+        grid-template-rows: 500px 1fr 500px;
+    }
+
+    .off- {
+        display: none;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+

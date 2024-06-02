@@ -1,0 +1,144 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 780px;
+    margin-block: 5rem;
+}
+
+.backer-cont {
+    background-image: url(../images/pexels-cottonbro-4911777.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fm {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(255, 172, 47);
+    padding-top: 7rem;
+    color: rgb(10, 54, 10);
+}
+
+.fm h1 {
+    line-height: 3rem;
+    letter-spacing: 0.12rem;
+}
+
+.fm p {
+    letter-spacing: 0.2rem;
+    line-height: 1rem;
+}
+
+form div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+form div input {
+    width: 300px;
+    margin-top: 3rem;
+    padding: 0.7rem 0.5rem;
+    border-style: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(10, 54, 10);
+}
+
+.name3 {
+    width: 98%;
+    margin-top: 3rem;
+    padding: 0.7rem 0.5rem;
+    border-style: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(10, 54, 10);
+}
+
+textarea {
+    display: block;
+    margin-top: 2rem;
+    height: 120px;
+    width: 98%;
+    border-style: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(10, 54, 10);
+}
+
+.sub-it {
+    background-color: rgb(10, 54, 10);
+    padding: 0.6rem 1.4rem;
+    color: white;
+    text-decoration: none;
+    margin-top: 4rem;
+    transition: all 0.2s ease-in;
+}
+
+.sub-it:hover {
+    background-color: white;
+    color: rgb(10, 54, 10);
+}
+
+.middler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.middler img {
+    width: 100px;
+    height: 100px;
+}
+
+.clientes {
+    text-align: center;
+    color: rgb(10, 54, 10);
+}
+
+.clientes h2, .insta-follow h2 {
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+}
+
+.centra {
+    display: flex;
+    place-items: center;
+    place-content: center;
+    width: 100%;
+}
+
+.last-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 550px;
+    text-align: start;
+    line-height: 2rem;
+    margin-block: 2rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 5rem;
+}
+
+
+@media (max-width: 960px) {
+    .main {
+        grid-template-columns: 1fr;
+        height: auto;
+        margin-block: 3rem;
+    }
+
+    .backer-cont {
+        height: 780px;
+        width: 100%;
+    }
+
+    .fm {
+        width: 100%;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+}
+

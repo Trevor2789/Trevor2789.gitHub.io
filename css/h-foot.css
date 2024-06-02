@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding-top: 95px;
+    background-color: rgba(234, 240, 245, 0.87);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    inset-inline: 0;
+    height: 95px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    color: black;
+    padding-inline: 1rem;
+    background-color: whitesmoke;
+}
+
+.with-logo {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+}
+
+.with-logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.with-logo p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+.links-pgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links-pgs div a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.2rem;
+}
+
+.act {
+    font-weight: 600;
+    color: rgb(10, 54, 10);
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-inline: 1rem;
+    color: rgb(10, 54, 10);
+}
+
+footer article h3 {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1.45rem;
+}
+
+footer article p {
+    line-height: 1.5rem;
+    letter-spacing: 0.07rem;
+}
+
+footer article a {
+    color: rgb(10, 54, 10);
+    text-decoration: none;
+    
+}
+
+.foot-1 img{
+    width: 200px;  
+}
+
+.foot-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 44px 1fr;
+}
+
+.foot-4 img {
+    width: 25px;
+    height: 25px;
+    margin-inline: 20px;
+}
+
+.sidey {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 35%;
+    width: 45px;
+    background-color: rgb(191, 230, 165);
+}
+
+.sidey div {
+    padding: 5px;
+}
+
+.with-bord {
+    border-block: 1px solid black;
+}
+
+.sidey img {
+    width: 95%;
+}
+
+@media (max-width: 950px) {
+    .links-pgs {
+        display: none;
+        visibility: none;
+    }
+    
+    footer {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    .sidey {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+    }
+    
+}

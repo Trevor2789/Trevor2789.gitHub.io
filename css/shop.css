@@ -1,0 +1,54 @@
+main {
+    color: rgb(10, 54, 10);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.hero h3, h1{
+    text-align: center;   
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 85px;
+    padding-inline: 30px;
+    margin-bottom: 10rem;
+}
+
+.crd-big p {
+    text-align: center;
+    margin-block: 0.5rem;
+}
+
+.crd-big img {
+    width: 370px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.wats {
+    transition: transform 0.3s ease-in-out;
+}
+
+.wats:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media (max-width: 960px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        padding-inline: 10px;
+        margin-bottom: 2rem;
+    }
+}
+

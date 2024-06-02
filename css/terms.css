@@ -1,0 +1,25 @@
+* {
+    color: rgb(10, 54, 10);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.hero h1{
+    text-align: center; 
+    letter-spacing: 0.2rem;  
+}
+
+.wordy {
+    padding-inline: 3%;
+    line-height: 1.6rem;
+    letter-spacing: 0.08rem;
+    
+}
+
+
